@@ -1,7 +1,3 @@
-Here’s a **strong and high-level `README.md`** for your Snake Game repository, designed to be professional, descriptive, and engaging for GitHub:
-
----
-
 # 🐍 Snake Game in C++ (Console-Based)
 
 A feature-rich, console-based **Snake Game** built using **C++**. This project offers an interactive and engaging gameplay experience directly in the terminal, complete with multiple game modes, high score tracking, and even sound effects to enhance the retro gaming feel.
@@ -78,24 +74,9 @@ A feature-rich, console-based **Snake Game** built using **C++**. This project o
 
 ---
 
-## 👨‍💻 Author
-
-**Developed by [Jasmeet Singh](https://github.com/jasmeet1234)**  
-> Enthusiastic C++ developer passionate about building engaging and meaningful user experiences through code.
-
----
-
-## 📝 License
-
-This project is licensed under the **MIT License**. Feel free to modify and distribute it with proper attribution.
-
----
-
 ## 🙌 Contributions & Feedback
 
 Feel free to **submit issues** or **open pull requests** if you'd like to contribute or suggest improvements.  
 Let’s keep the snake slithering forward! 🐍
 
 ---
-
-Let me know if you'd like this pushed to your repo or need a version tailored for non-Windows systems.
