@@ -1,53 +1,101 @@
-# Snake Game in C++
-
-Welcome to the Snake Game! This C++ console-based game allows you to control a snake and collect fruits to score points. The game features multiple modes, including an Easy mode with no death on touching the walls and a Medium mode where touching the walls results in game over. You can also view the Hall of Fame to see the high scores of previous players. The game includes a save feature to store your score for future reference.
-
-## How to Play
-
-1. Clone or download this repository to your local machine.
-
-2. Compile and run the C++ code using your preferred C++ compiler.
-
-3. Follow the on-screen instructions to choose your game mode and control the snake:
-
-   - Use the 'W' key to move the snake upwards.
-   - Use the 'S' key to move the snake downwards.
-   - Use the 'A' key to move the snake to the left.
-   - Use the 'D' key to move the snake to the right.
-   - Press 'X' to exit the game.
-
-4. The goal of the game is to collect as many fruits as possible to score points. Be careful not to collide with the walls or the snake's tail, as it will lead to game over.
-
-## Game Modes
-
-1. **Easy Mode**: In this mode, the snake will not die on touching the walls. You can enjoy collecting fruits without the fear of game over due to wall collisions.
-
-2. **Medium Mode**: In this mode, the snake will die on touching the walls. Be cautious and navigate carefully to avoid hitting the walls and survive as long as possible.
-
-## Hall of Fame
-
-You can access the Hall of Fame to view the high scores of previous players. The game will display the names of players along with their scores in the Easy and Medium modes.
-
-## Save Feature
-
-The game includes a save feature that stores your score for future reference. If you achieve a high score, your name and score will be recorded in the Hall of Fame.
-
-## Music
-
-Enjoy the game with background music to enhance the gaming experience. The game plays background music using the "snakes1.wav" file.
-
-## Controls
-
-- 'W': Move the snake upwards.
-- 'S': Move the snake downwards.
-- 'A': Move the snake to the left.
-- 'D': Move the snake to the right.
-- 'X': Exit the game.
-
-## Credits
-
-This Snake Game was created by https://github.com/jasmeet1234. It was developed using C++ and various standard libraries. 
+Here’s a **strong and high-level `README.md`** for your Snake Game repository, designed to be professional, descriptive, and engaging for GitHub:
 
 ---
 
-Have a great time playing the Snake Game! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Happy gaming!
+# 🐍 Snake Game in C++ (Console-Based)
+
+A feature-rich, console-based **Snake Game** built using **C++**. This project offers an interactive and engaging gameplay experience directly in the terminal, complete with multiple game modes, high score tracking, and even sound effects to enhance the retro gaming feel.
+
+---
+
+## 🎮 Game Features
+
+- **Two Difficulty Modes**
+  - **Easy Mode**: Safe wall collision. Perfect for casual play and warm-ups.
+  - **Medium Mode**: Instant game over on wall contact—test your reflexes!
+  
+- **Hall of Fame**: Stores and displays high scores by player name across sessions.
+
+- **Sound Effects**:
+  - Background music (`snakes1.wav`)
+  - Game over sound (`Game_over.wav`)
+
+- **Save System**: Automatically stores scores in `scores.txt` for high score tracking.
+
+---
+
+## 🧠 How It Works
+
+- Classic snake mechanics: control the snake using keyboard inputs.
+- Eat fruits to grow your tail and increase your score.
+- Avoid collisions with the wall (in Medium mode) and with your own tail.
+
+---
+
+## ⌨️ Controls
+
+| Key | Action            |
+|-----|-------------------|
+| `W` | Move Up           |
+| `S` | Move Down         |
+| `A` | Move Left         |
+| `D` | Move Right        |
+| `X` | Exit Game         |
+
+---
+
+## 🛠 How to Run
+
+1. **Clone or Download** this repository:
+   ```bash
+   git clone https://github.com/jasmeet1234/snake-game-cpp.git
+   ```
+
+2. **Compile the game** using any C++ compiler (supports Windows headers like `windows.h`, `conio.h`):
+   ```bash
+   g++ snakes.cpp -o snakes.exe
+   ```
+
+3. **Run the executable**:
+   ```bash
+   ./snakes.exe
+   ```
+
+> ⚠️ This game uses `PlaySound` and Windows-specific libraries. For cross-platform compatibility, modifications will be required.
+
+---
+
+## 📁 Repository Structure
+
+| File            | Description                                |
+|-----------------|--------------------------------------------|
+| `snakes.cpp`    | Main source code for the game              |
+| `snakes.exe`    | Compiled Windows executable                |
+| `scores.txt`    | Stores high scores                         |
+| `Game_over.wav` | Sound played on game over                 |
+| `snakes1.wav`   | Background music file                      |
+| `Readme.md`     | You’re reading it 🙂                        |
+
+---
+
+## 👨‍💻 Author
+
+**Developed by [Jasmeet Singh](https://github.com/jasmeet1234)**  
+> Enthusiastic C++ developer passionate about building engaging and meaningful user experiences through code.
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**. Feel free to modify and distribute it with proper attribution.
+
+---
+
+## 🙌 Contributions & Feedback
+
+Feel free to **submit issues** or **open pull requests** if you'd like to contribute or suggest improvements.  
+Let’s keep the snake slithering forward! 🐍
+
+---
+
+Let me know if you'd like this pushed to your repo or need a version tailored for non-Windows systems.
