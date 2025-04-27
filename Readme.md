@@ -74,6 +74,12 @@ A feature-rich, console-based **Snake Game** built using **C++**. This project o
 
 ---
 
+## 🎮 Demo
+
+![Demo of Flip Game](demonstration/snake.gif)
+
+---
+
 ## 🙌 Contributions & Feedback
 
 Feel free to **submit issues** or **open pull requests** if you'd like to contribute or suggest improvements.  
